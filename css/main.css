@@ -36,7 +36,24 @@ header h3{
      width: 100%;
   }
 
+
+
   /*ABout us*/
-  /*#about{
-    padding-top:-20px;
-  }*/
+.first:after {
+  border-right: 2px solid orange;
+}
+#about{
+  background: black;
+  background-image: url(../images/image-1.jpeg);
+}
+
+
+#training a:hover{
+  color:grey;
+}
+#training a{
+  text-decoration: none;
+}
+#training {
+  background: #FDF3E7;
+}
