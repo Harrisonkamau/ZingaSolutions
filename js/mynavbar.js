@@ -27,3 +27,15 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+
+// resize the logo on scroll
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 40) {
+        $(".logo").addClass("resizeImage");
+    } else {
+        $(".logo").removeClass("resizeImage");
+    }
+});
