@@ -20,7 +20,16 @@
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/component.css">
       <link rel="stylesheet" href="css/demo.css">
+      <link rel="stylesheet" href="css/site.css">
       <link rel="stylesheet" href="css/js-image-slider.css">
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.1/modernizr.min.js"></script>
+    	<script>window.Modernizr || document.write('<script type="text/javascript" src="https://securendn.a.ssl.fastly.net/newpanel/js/vendor/modernizr.2.6.1.min.js"><\/script>')</script>
+    	<script type="text/javascript">
+    		var current_tree;
+
+    	</script>
+
+	     <link rel="stylesheet" media="all" href="https://securendn.a.ssl.fastly.net/newpanel/css/island.css?20160308" />
       <style media="screen">
       html,body{
         width: 100%;
@@ -271,23 +280,39 @@
 
 <!-- Contact -->
 <div id="contact">
+  <div class="pad-top"></div>
   <div class="container">
+    <h1>Contact US</h1>
     <div class="row">
       <div class="col-md-12">
         <div class="col-md-6">
-          <form id="message-form" action="#">
-            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-              <input class="mdl-textfield__input" type="text" id="name">
-              <label class="mdl-textfield__label" for="message">Name</label>
-              <input class="mdl-textfield__input" type="email" id="email">
-              <label class="mdl-textfield__label" for="message">Email</label>
-              <input class="mdl-textfield__input" type="text" id="message">
-              <label class="mdl-textfield__label" for="message">Message...</label>
-            </div>
-            <button id="submit" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-              Send
-            </button>
-          </form>
+          <form method="post" action="https://panel.dreamhost.com/index.cgi" class="login-form form-default js-login-form">
+      		<fieldset class="login-standard js-login-standard">
+            <div class="form-row floating-label">
+      				<input type="text" name="username" id="username" placeholder="Email" class="js-login-username" required autofocus />
+      				<label for="email">Name</label>
+      			</div>
+      			<div class="form-row floating-label">
+      				<input type="text" name="email" id="email" placeholder="Email" class="js-login-username" required autofocus />
+      				<label for="email">Email</label>
+      			</div>
+      			<div class="form-row floating-label">
+      				<input type="password" name="password" id="password" autocomplete="off" placeholder="Password" required />
+      				<label for="password">Password</label>
+      			</div>
+
+      			<div class="form-row form-footer row row-table">
+      				<div class="col-1-2 login-reset">
+      					<p><a href="https://panel.dreamhost.com/login/forgot.cgi?return_url=https%3A%2F%2Fpanel%2Edreamhost%2Ecom%2Findex%2Ecgi" class="btn-inline btn-dark-blue btn-no-underline">Reset password</a></p>
+      				</div>
+      				<div class="col-1-2 login-submit">
+      					<button type="submit" class="btn-simple">Sign in</button>
+      				</div>
+      			</div>
+      		</fieldset>
+
+		<input type="hidden" name="Nscmd" value="Nlogin" />
+	</form>
 
         </div>
 
@@ -350,6 +375,8 @@
       <script src="js/js-image-slider.js"></script>
       <script src="js/mcVideoPlugin .js"></script>
       <script src="js/index.js"></script>
+      <script src="js/login.js"></script>
+
 
 
 </script>
