@@ -210,6 +210,7 @@ header h3{
 #second {
     height: 18.3em;
     border-left: 2px solid orange;
+
 }
 
 
@@ -221,7 +222,7 @@ header h3{
    top: 150px;
 }
 #sticky-social a {
-   background: #3333ff;
+   background: #009900;
    color: #fff;
    display: block;
    height: 35px;
@@ -232,10 +233,10 @@ header h3{
    width: 50px;
    text-decoration: none;
 
-   border-top: 2px solid grey
+   border-top: 2px solid;
 }
 .entypo-instagrem {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid;
 
 }
 #sticky-social a span {
@@ -261,3 +262,37 @@ header h3{
 	  -moz-box-sizing: border-box;
 	  box-sizing: border-box;
 	}
+
+  #about h1{
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+  }
+  #about h3{
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+
+  }
+  #contact{
+    background:#595959;
+
+  }
+  #contact p,h1{
+    color: #fff;
+  }
+
+  #training a{
+    text-decoration: none;
+    color: black;
+
+  }
+  #training a:hover{
+    /*text-decoration: none;*/
+    color: black;
+
+  }
+  #training h1{
+    color:#fff;
+  }
+  #training{
+    background: grey;
+  }
