@@ -80,7 +80,8 @@ header h3{
        width:262px;
        height:140px;
        padding:15px;
-       background:#e6e2df;
+       /*background:#e6e2df;*/
+       background:  #404040;
        color:#b2aaa4;
        -webkit-transition:all 0.2s ease;
        -moz-transition:all 0.2s ease;
@@ -300,5 +301,14 @@ header h3{
     border-bottom: 2px solid orange;
   }
   #training a{
-    color:#fff
+    color:#fff;
+
   }
+  #training li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200px;
+  }
+#page-wrap a:hover{
+  text-decoration: none;
+  border-bottom: 2px solid grey;
+}
