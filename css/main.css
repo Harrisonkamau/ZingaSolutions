@@ -322,3 +322,15 @@ header h3{
   text-decoration: none;
   border-bottom: 2px solid grey;
 }
+
+
+/*Address*/
+#address p{
+  padding-left: 20px;
+}
+#website {
+  color: #fff;
+}
+#website:hover{
+  color: orange;
+}
