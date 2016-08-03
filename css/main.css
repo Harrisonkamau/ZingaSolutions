@@ -233,7 +233,7 @@ header h3{
    top: 150px;
 }
 #sticky-social a {
-   background: #d35400 ;
+   background: #d35400;
    color:  #fff;
    display: block;
    height: 45px;
@@ -371,7 +371,7 @@ header h3{
   opacity: .5;
 }
 .no-touch .cd-top:hover {
-  background-color: #e86256;
+  background-color: #d35400;
   opacity: 1;
 }
 @media only screen and (min-width: 768px) {
