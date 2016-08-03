@@ -33,7 +33,7 @@ $('.navbar-collapse ul li a').click(function() {
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 40) {
+    if (scroll >= 80) {
         $(".logo").addClass("resizeImage");
     } else {
         $(".logo").removeClass("resizeImage");
