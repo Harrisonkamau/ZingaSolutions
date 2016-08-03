@@ -8,11 +8,11 @@
 {
     width:700px;
     margin: 0 auto; /*center-aligned*/
-    margin-left:-4px;
+
 }
 
 #slider, #slider .sliderInner {
-    width:850px;height:460px;/* Must be the same size as the slider images */
+    width:900px;height:420px;/* Must be the same size as the slider images */
     border-radius: 6px;
 }
 
