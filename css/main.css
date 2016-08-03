@@ -296,3 +296,6 @@ header h3{
   #training{
     background: grey;
   }
+  #training a:hover{
+    border-bottom: 2px solid #fff;
+  }
