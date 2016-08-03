@@ -4,14 +4,15 @@
     box-sizing: content-box;
 }
 
-#sliderFrame 
+#sliderFrame
 {
     width:700px;
     margin: 0 auto; /*center-aligned*/
+    margin-left:-4px;
 }
-  
+
 #slider, #slider .sliderInner {
-    width:700px;height:306px;/* Must be the same size as the slider images */
+    width:850px;height:460px;/* Must be the same size as the slider images */
     border-radius: 6px;
 }
 
@@ -45,7 +46,7 @@
 }
 
 /* each bullet */
-#slider .navBulletsWrapper div 
+#slider .navBulletsWrapper div
 {
     width:11px; height:11px;
     font-size:0;color:White;/*hide the index number in the bullet element*/
@@ -71,7 +72,7 @@
 #slider>a, #slider video, #slider audio {display:none;}
 #slider div {
     -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);             
+    transform: translate3d(0,0,0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
