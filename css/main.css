@@ -233,10 +233,10 @@ header h3{
    top: 150px;
 }
 #sticky-social a {
-   background: #009900;
-   color: #fff;
+   background: #d35400 ;
+   color:  #fff;
    display: block;
-   height: 35px;
+   height: 45px;
    font: 16px "Open Sans", sans-serif;
    line-height: 35px;
    position: relative;
@@ -244,12 +244,12 @@ header h3{
    width: 50px;
    text-decoration: none;
 
-   border-top: 2px solid;
+   /*border-top: 2px solid;*/
 }
-.entypo-instagrem {
+/*.entypo-instagrem {
   border-bottom: 2px solid;
 
-}
+}*/
 #sticky-social a span {
    line-height: 35px;
    left: -120px;
